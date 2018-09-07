@@ -1,8 +1,9 @@
 ud120-projects-solution
 =======================
 
-Solving starter project code for Udacity ud120 - Intro to ML course
-Solving The codes in Python3. The provided pre-processing codes have been converted into python3 syntax.
+Solving starter project code for Udacity ud120 - Intro to ML course <br>
+Solving The codes in Python3.<br>
+The provided pre-processing codes have been converted into python3 syntax.
 
 Completed Topics
 ================
