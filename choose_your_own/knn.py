@@ -26,17 +26,21 @@ plt.xlabel("bumpiness")
 plt.ylabel("grade")
 plt.show()
 ################################################################################
+from sklearn.neighbors import KNeighborsClassifier
+#Create KNN Classifier
+knn_clf =  KNeighborsClassifier(n_neighbors=13, p=6)
+#Fit data into the classifier to create model
+knn_clf.fit(features_train, labels_train)
+#Pass Testing Features to Get A Prediction Out of The Classifier
+pred = knn_clf.predict(features_test)
 
+from sklearn.metrics import accuracy_score
+#Get Accuracy of The Prediction By Comparing With the Testing Labels
+acc= accuracy_score(pred, labels_test)
 
-### your code here!  name your classifier object clf if you want the 
-### visualization code (prettyPicture) to show you the decision boundary
-
-
-
-
-
-
-
+print(acc)
+#########################################################
+#Accuracy = 0.94
 
 try:
     prettyPicture(clf, features_test, labels_test)
