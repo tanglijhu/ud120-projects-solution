@@ -11,5 +11,6 @@ Completed Topics
   <li>Gaussian Naive Bayes</li>
   <li>Support Vector Machines</li>
   <li>Decition Trees</li>
+  <li>Choose Your Own Algorithm</li>
 </ul>
 
